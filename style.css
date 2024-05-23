@@ -9,6 +9,7 @@ body{
 a{
     text-decoration: none;
     color: #222222;
+    cursor: pointer;
 }
 
 a:hover{
@@ -30,9 +31,73 @@ a:hover{
 
 .menu_links{
     list-style: none;
+    padding: 0;
 }
 
 .menu_links li{
     display: inline-block;
     padding: 0px 20px;
+}
+
+header{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+}
+
+section{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img{
+    overflow-clip-margin: content-box;
+}
+
+nav{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.coluna{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner p{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
